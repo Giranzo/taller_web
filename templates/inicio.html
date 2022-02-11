@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <!-- Este es el titulo-->
+        <title>Mi primera pagina web</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <a href="{{url_for('inicio') }}">Inicio</a>
+        <a href="{{url_for('contacto') }}">Contacto</a>
+
+<!--
+    Crear un titulo con el siguiente texto: Hola Mundo en h1-->
+<!--Challenge:
+Crear un titulo "Mi nombre es...
+y estoy en Penguien por que...
+-->
+
+    <h1>Hola Mundo</h1>
+    
+    <h2>Mi nombre es Guillermo</h2>
+    <h3>Estoy en penguin por que anoche me quede a dormir aca </h3>
+    <img src="static/perrito.jpeg" alt="perrito con lentes" width="450" height="450">
+    </body>
+
+</html>
